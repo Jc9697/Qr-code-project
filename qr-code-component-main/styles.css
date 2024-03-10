@@ -1,0 +1,53 @@
+* { /* resetting and variables */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --White: hsl(0, 0%, 100%);
+    --gray: hsl(212, 45%, 89%);
+    --Gray-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+/* flexbox styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 1px);
+    background-color: var(--gray);
+}
+/* QR code styling */
+img {
+    border-radius: 1.25rem;
+    max-width: 100%;
+}
+/* image container styling */
+.container {
+    background-color: var(--White);
+    border-radius: 1.75rem;  
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 1rem 1rem 2.5rem 1rem;
+}
+.container h1 {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    color: var(--Dark-blue);
+}
+.container p {
+    text-align: center;
+    color: var(--Gray-blue);
+}
+@media (min-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+/* Lettering and link at the bottom */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 0.5rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
