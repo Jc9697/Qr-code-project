@@ -37,13 +37,13 @@ img {
     text-align: center;
     color: var(--Gray-blue);
 }
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     .container {
         width: 250px;
         padding: 1rem 1rem 1.5rem 1rem;
     }
 }
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     .container h1, .container p {
         font-size: 1rem;
     }
