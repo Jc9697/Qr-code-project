@@ -39,7 +39,7 @@ img {
 }
 @media (min-width: 500px) {
     .container {
-        width: 400px;
+        width: 300px;
     }
 }
 /* Lettering and link at the bottom */
