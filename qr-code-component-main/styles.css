@@ -39,7 +39,13 @@ img {
 }
 @media (min-width: 500px) {
     .container {
-        width: 300px;
+        width: 250px;
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+}
+@media (min-width: 500px) {
+    .container h1, .container p {
+        font-size: 1rem;
     }
 }
 /* Lettering and link at the bottom */
